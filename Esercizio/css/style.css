@@ -24,7 +24,8 @@ header img {
   padding: 20px 20px;
   margin-inline: auto;
   font-family: "Open Sans", sans-serif;
-  background-image: url(images/banner.jpg);
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
 }
 #prima-sezione h1,
 #prima-sezione p,
@@ -125,11 +126,13 @@ header img {
   padding-bottom: 30px;
   border: 2px solid;
   border-color: rgba(222, 225, 227, 0.5);
+  border-radius: 4px;
 }
 
 .card img {
   width: 100%;
   margin-inline: auto;
+  border-radius: 4px;
 }
 
 .card h2,
